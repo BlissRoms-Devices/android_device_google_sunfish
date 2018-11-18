@@ -27,3 +27,6 @@ TARGET_NEEDS_DTBOIMAGE := true
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
+
+PRODUCT_PACKAGES += \
+    netutils-wrapper-1.0
