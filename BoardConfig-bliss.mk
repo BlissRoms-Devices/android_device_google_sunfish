@@ -1,5 +1,5 @@
 #
-# Copyright 2019 The Android Open Source Project
+# Copyright (C) 2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,11 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sunfish.mk \
-    $(LOCAL_DIR)/bliss_sunfish.mk
-
-COMMON_LUNCH_CHOICES := \
-    aosp_sunfish-userdebug \
-    bliss_sunfish-user \
-    bliss_sunfish-userdebug
+-include vendor/google/sunfish/BoardConfigVendor.mk
