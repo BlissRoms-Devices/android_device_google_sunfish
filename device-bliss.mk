@@ -36,3 +36,12 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
     RcsService
+
+# IMS/Telephony
+PRODUCT_PACKAGES += \
+    ims-ext-common \
+    ims_ext_common.xml \
+    telephony-ext
+
+PRODUCT_SOONG_NAMESPACES += \
+     vendor/codeaurora/telephony/ims
