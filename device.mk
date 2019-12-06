@@ -667,7 +667,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.debug.ash.logger.time=0
 endif
 
-# setup dalvik vm configs
+# Setup Dalvik VM configurations
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Use the default charger mode images
