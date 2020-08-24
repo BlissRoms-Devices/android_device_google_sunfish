@@ -30,3 +30,9 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
 
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
+
+# RCS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
