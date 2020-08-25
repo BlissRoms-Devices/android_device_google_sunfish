@@ -45,3 +45,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SOONG_NAMESPACES += \
      vendor/codeaurora/telephony/ims
+
+# Build necessary packages for vendor
+PRODUCT_PACKAGES += \
+    libdisplayconfig \
+    libjson \
+    libtinyxml \
+    libwifi-hal-qcom

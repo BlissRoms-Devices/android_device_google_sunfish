@@ -100,3 +100,9 @@ ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
 # atrace
 ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
+
+# missing vendor props
+drm.service.enabled=true
+media.mediadrmservice.enable=true
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
