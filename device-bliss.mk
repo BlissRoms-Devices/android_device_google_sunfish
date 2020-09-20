@@ -48,11 +48,22 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Build necessary packages for vendor
 PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor:32 \
+    chre \
     ese_spi_st \
+    libavservices_minijail_vendor:32 \
+    libbatching \
     libcodec2_hidl@1.0.vendor:32 \
     libcodec2_vndk.vendor \
+    libcppbor.vendor:64 \
     libdrm.vendor \
+    libgooglecamerahal.vendor:64 \
+    libgooglecamerahalutils.vendor:64 \
+    libhidltransport.vendor \
+    libhwbinder.vendor \
     libjson \
+    libkeymaster_messages.vendor:64 \
+    libkeymaster_portable.vendor:64 \
     libmedia_ecoservice.vendor \
     libnetfilter_conntrack:64 \
     libnfnetlink:64 \
@@ -62,13 +73,20 @@ PRODUCT_PACKAGES += \
     libnos_datagram_citadel:64 \
     libnosprotos:64 \
     libnos_transport:64 \
+    lib_profiler:64 \
+    libpuresoftkeymasterdevice.vendor:64 \
     libsensorndkbridge:64 \
+    libsoft_attestation_cert.vendor:64 \
+    libteeui_hal_support.vendor:64 \
     libtinycompress \
     libtinyxml \
+    libwifi-hal:64 \
     libwifi-hal-qcom \
     nos_app_avb:64 \
+    nos_app_identity:64 \
     nos_app_keymaster:64 \
     nos_app_weaver:64 \
+    sound_trigger.primary.sm6150 \
     vendor.display.config@1.0.vendor \
     vendor.display.config@1.1.vendor \
     vendor.display.config@1.2.vendor \
