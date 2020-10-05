@@ -102,3 +102,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor
+
+# Build necessary packages for system
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhwbinder \
+    libmediaplayerservice:32 \
+    libstagefright_httplive:32
