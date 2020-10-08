@@ -109,3 +109,7 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libmediaplayerservice:32 \
     libstagefright_httplive:32
+
+# Shared java libs
+PRODUCT_PACKAGES += \
+    com.android.nfc_extras
