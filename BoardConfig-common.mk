@@ -17,6 +17,8 @@
 include build/make/target/board/BoardConfigMainlineCommon.mk
 include build/make/target/board/BoardConfigPixelCommon.mk
 
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 TARGET_BOARD_PLATFORM := sm6150
 TARGET_BOARD_INFO_FILE := device/google/sunfish/board-info.txt
 USES_DEVICE_GOOGLE_SUNFISH := true
@@ -91,7 +93,10 @@ AB_OTA_PARTITIONS += \
      dtbo \
      product \
      system_ext \
-     vbmeta_system
+     vbmeta_system \
+     vendor
+
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Partitions (listed in the file) to be wiped under recovery.
 TARGET_RECOVERY_WIPE := device/google/sunfish/recovery.wipe
