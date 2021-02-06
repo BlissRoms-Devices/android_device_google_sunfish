@@ -22,6 +22,9 @@ $(call inherit-product, device/google/sunfish/aosp_sunfish.mk)
 
 -include device/google/sunfish/device-lineage.mk
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := sunfish
