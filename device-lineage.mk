@@ -22,21 +22,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys-intf/display \
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-
 # Parts
 PRODUCT_PACKAGES += \
     GoogleParts \
-
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.pixel \
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
