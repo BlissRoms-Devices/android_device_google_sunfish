@@ -1,0 +1,14 @@
+[	
+ {
+    "remote": "github",
+    "repository": "LineageOS/android_kernel_google_sunfish",
+    "target_path": "kernel/google/sunfish",
+    "revision": "lineage-18.1"
+ },
+ {
+    "remote": "github",
+    "repository": "TheMuppets/proprietary_vendor_google",
+    "target_path": "vendor/google",
+    "revision": "lineage-18.1"
+ }
+]
