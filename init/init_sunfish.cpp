@@ -56,5 +56,5 @@ void property_override_dual(char const system_prop[], char const vendor_prop[],
 void vendor_load_properties()
 {
     // fingerprint
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/sunfish/sunfish:11/RQ2A.210505.002/7246365:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys");
 }
