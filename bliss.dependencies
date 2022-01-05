@@ -1,0 +1,14 @@
+[	
+ {
+    "remote": "github",
+    "repository": "LineageOS/android_kernel_google_msm-4.14",
+    "target_path": "kernel/google/msm-4.14",
+    "revision": "lineage-19.0"
+ },
+ {
+    "remote": "github",
+    "repository": "TheMuppets/proprietary_vendor_google",
+    "target_path": "vendor/google",
+    "revision": "lineage-19.0"
+ }
+]
