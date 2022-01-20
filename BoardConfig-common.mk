@@ -101,6 +101,9 @@ TARGET_RECOVERY_UI_LIB := \
     librecovery_ui_pixel \
     libfstab
 
+# Verified Boot
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
 # Enable chain partition for system.
 BOARD_AVB_VBMETA_SYSTEM := system system_ext product
 BOARD_AVB_VBMETA_SYSTEM_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
