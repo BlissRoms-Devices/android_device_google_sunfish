@@ -489,6 +489,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.media.transcoding.codec_max_operating_rate_720P=240 \
     debug.media.transcoding.codec_max_operating_rate_1080P=120 \
 
+# Now Playing
+PRODUCT_PACKAGES += \
+    NowPlayingOverlay
+
 # Disable OMX
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.media.omx=0 \
