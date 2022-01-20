@@ -885,6 +885,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.sf.native_mode=2 \
     persist.sys.sf.color_mode=9
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/qcom/opensource/commonsys-intf/display \
+    vendor/qcom/opensource/display
+
 # EUICC
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
