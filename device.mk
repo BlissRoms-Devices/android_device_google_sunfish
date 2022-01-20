@@ -293,6 +293,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.audio.monitorRotation=true
 
+# Camera
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
+    ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
+
 # Iaxxx streming and factory binary
 PRODUCT_PACKAGES += \
     libtunnel \
