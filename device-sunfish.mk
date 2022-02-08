@@ -130,3 +130,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     AvoidAppsInCutoutOverlay
+
+# HBM
+PRODUCT_PACKAGES += \
+    HbmSVManagerOverlay
