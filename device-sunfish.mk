@@ -117,8 +117,7 @@ include device/google/sunfish/fingerprint.mk
 
 # Keyboard height ratio and bottom padding in dp for portrait mode
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.ime.height_ratio=1.2 \
-    ro.com.google.ime.kb_pad_port_b=10
+    ro.com.google.ime.height_ratio=1.2
 
 # Bluetooth Tx power caps for sunfish
 PRODUCT_COPY_FILES += \
