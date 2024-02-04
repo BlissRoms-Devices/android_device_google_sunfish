@@ -17,8 +17,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_sunfish.mk \
     $(LOCAL_DIR)/aosp_sunfish_hwasan.mk \
-    $(LOCAL_DIR)/lineage_sunfish.mk
+    $(LOCAL_DIR)/bliss_sunfish.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_sunfish-trunk_staging-userdebug \
-    lineage_sunfish-trunk_staging-userdebug
+    bliss_sunfish-trunk_staging-userdebug
